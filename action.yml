@@ -1,0 +1,11 @@
+name: Build RPM
+description: Build RPM on CentOS 8
+author: biohuns <biohuns@gmail.com>
+
+runs:
+  using: docker
+  image: docker://biohuns/rpmbuild:centos8
+
+branding:
+  icon: package
+  color: red
